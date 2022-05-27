@@ -24,7 +24,7 @@ namespace Exercise_PABD
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pboxback_Click(object sender, EventArgs e)
         {
             new MenuUtama().Show();
             this.Hide();
