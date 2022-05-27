@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Exercise_PABD
 {
-    public partial class DataGrid : Form
+    public partial class DataGrid2 : Form
     {
-        public DataGrid()
+        public DataGrid2()
         {
             InitializeComponent();
         }
 
-        private void FormDataGrid_Load(object sender, EventArgs e)
+        private void FormDataGrid2_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
@@ -26,13 +26,7 @@ namespace Exercise_PABD
 
         private void pboxback_Click(object sender, EventArgs e)
         {
-            new MenuUtama().Show();
-            this.Hide();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            new DataGrid2().Show();
+            new DataGrid().Show();
             this.Hide();
         }
     }

@@ -106,6 +106,7 @@ namespace Exercise_PABD
             // pboxkeluar
             // 
             this.pboxkeluar.BackColor = System.Drawing.Color.Transparent;
+            this.pboxkeluar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxkeluar.Image = ((System.Drawing.Image)(resources.GetObject("pboxkeluar.Image")));
             this.pboxkeluar.Location = new System.Drawing.Point(510, 354);
             this.pboxkeluar.Name = "pboxkeluar";
