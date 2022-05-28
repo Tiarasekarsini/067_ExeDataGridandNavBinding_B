@@ -87,9 +87,9 @@ namespace Exercise_PABD
             this.label2.ForeColor = System.Drawing.Color.LavenderBlush;
             this.label2.Location = new System.Drawing.Point(126, 299);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 24);
+            this.label2.Size = new System.Drawing.Size(165, 24);
             this.label2.TabIndex = 4;
-            this.label2.Text = "DataGridView";
+            this.label2.Text = "Data Grid View";
             // 
             // label3
             // 

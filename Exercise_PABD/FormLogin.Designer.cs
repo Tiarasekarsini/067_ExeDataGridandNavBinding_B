@@ -156,6 +156,7 @@ namespace Exercise_PABD
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(640, 480);
             this.MinimumSize = new System.Drawing.Size(640, 480);
             this.Name = "Login";
             this.Text = "LOGIN";
